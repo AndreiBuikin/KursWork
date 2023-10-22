@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Стили для заголовков */
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Стили для ссылок */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #666;
+    transition: .3s;
+}
+
+/* Стили для шапки сайта */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* Стили для основного содержимого */
+section.gameplay {
+    background-color: #fff;
+    padding: 20px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Стили для подвала сайта */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.link-hover-solid a {
+    display: inline-block;
+    color: #ffffff;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+.link-hover-solid a:after {
+    background-color: #E32636;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0;
+    -webkit-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.link-hover-solid a:hover:after,
+.link-hover-solid a:focus:after {
+    width: 100%;
+}
+
